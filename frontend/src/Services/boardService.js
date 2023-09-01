@@ -9,8 +9,8 @@ import {
 import { openAlert } from '../Redux/Slices/alertSlice';
 import { addMembers, setActivityLoading, updateActivity, updateBackground, updateDescription } from '../Redux/Slices/boardSlice';
 
-const listRoute = 'https://planning-iota.vercel.app/list';
-const boardRoute = 'https://planning-iota.vercel.app/board';
+const listRoute = 'https://trello-tczf.onrender.com/list';
+const boardRoute = 'https://trello-tczf.onrender.com/board';
 
 export const getLists = async (boardId, dispatch) => {
 	dispatch(setLoading(true));

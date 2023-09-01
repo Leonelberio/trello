@@ -2,7 +2,7 @@ import axios from 'axios';
 import { updateCardDragDrop, updateListDragDrop } from '../Redux/Slices/listSlice';
 import { openAlert } from '../Redux/Slices/alertSlice';
 
-const baseUrl = 'https://planning-iota.vercel.app/list';
+const baseUrl = 'https://trello-tczf.onrender.com/list';
 
 //  Create promise to queue requests
 let submitCall = Promise.resolve();

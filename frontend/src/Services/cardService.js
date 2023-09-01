@@ -53,7 +53,7 @@ import {
 	updateStartDueDatesOfCard,
 } from '../Redux/Slices/listSlice';
 
-const baseUrl = 'https://planning-iota.vercel.app/card';
+const baseUrl = 'https://trello-tczf.onrender.com/card';
 let submitCall = Promise.resolve();
 
 export const getCard = async (cardId, listId, boardId, dispatch) => {

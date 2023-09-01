@@ -13,7 +13,7 @@ import {
 } from "../Redux/Slices/userSlice";
 import { openAlert } from "../Redux/Slices/alertSlice";
 import setBearer from "../Utils/setBearer";
-const baseUrl = "https://planning-iota.vercel.app/user/";
+const baseUrl = "https://trello-tczf.onrender.com/user/";
 
 export const register = async (
   { name, surname, email, password, repassword },

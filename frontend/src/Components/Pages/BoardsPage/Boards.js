@@ -47,7 +47,7 @@ const Boards = () => {
             })}
           {!pending && (
             <AddBoard onClick={() => setOpenModal(true)}>
-              Créer un nouveau tableau
+              Créer un nouveau projet
             </AddBoard>
           )}
           {openModal && <CreateBoard callback={handleModalClose} />}
